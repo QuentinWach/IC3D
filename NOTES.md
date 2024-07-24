@@ -1,5 +1,9 @@
 # 🔨 To Do
 
++ [ ] Create an example `test.gds` file.
++ [ ] Animate it in Blender with the layers seperating and rotating.
++ [ ] Upload a .gif to the `README.md` as the header image.
+
 ## Conversion of .gds to .gltf
 + [X] Create and display a working .gltf file in Blender using GDS2glTF.
 + [X] Get the GDS2glTF code running.
