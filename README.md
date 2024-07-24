@@ -1,7 +1,7 @@
 # IC3D
 
 <div style="text-align: center;">
-<b>Create photo-real animations of your photonic/electronic integrated circuits.</b>
+<b>Convert your .gds to .gltf files to create photo-real animations of your photonic/electronic integrated circuits.</b>
 </div>
 <br>
 
@@ -11,6 +11,8 @@
 
 ![](docs/header.png)
 
+This code is based on [https://github.com/mbalestrini/GDS2glTF](https://github.com/mbalestrini/GDS2glTF) which in turn is based on [https://github.com/dteal/gdsiistl](https://github.com/dteal/gdsiistl).
+The main changes here ensure that complex nested cells, flips, and rotations are done correctly so that complex integrated photonics designs can be rendered in 3D.
 
 ---
 ### 🚀 Get Started
