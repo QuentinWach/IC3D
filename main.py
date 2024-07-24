@@ -1,6 +1,6 @@
 """
 This program converts a GDSII 2D layout file to a glTF 3D file.
-Based on https://github.com/QuentinWach/GDS2glTF
+Based on https://github.com/mbalestrini/GDS2glTF
 and https://github.com/mbalestrini/gdsiistl.
 But adapted and slighlty modified to work with more complex GDSII files
 as common in integrated photonics.

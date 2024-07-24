@@ -31,12 +31,12 @@ The run the requirements install command again just to make sure all the require
 
 **2. Create 3D File.** Open `layers.py`. This file defines what each layer represents and what layers you want to export to a 3D file. An example is given which should make it clear how to use it. Once done with that, you can go ahead and test the conversion by running
 ```
-python gds2gltf.py test.gds
+python main.py test.gds
 ```
 which converts the `test.gds` file into a `.gds.gltf` file.
 You can then import it into any 3D rendering software or game engine of your choice.
 
 **3. Render with Blender.** 
-[Blender](https://www.blender.org/) is a free and open-source option to create visualizations of the chip's 3D file. Either open Blender and import the `.gltf` file directly which will display it with the proper materials and geometry as defined by your layer/process file.
+[Blender](https://www.blender.org/) is a free and open-source option to create visualizations of the chip's 3D file. Open Blender and import the `.gltf` file directly which will display it with the proper materials and geometry as defined by your layer/process file.
 
 I recommend watching this [Product Design and Rendering Blender Tutorial](https://www.youtube.com/watch?v=up_UGQIDOFg).
