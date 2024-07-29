@@ -1,5 +1,7 @@
 # IC3D
 
+<img align="right" width="40%" margin="15px" src="docs/xyz2.png"> 
+
 <div style="text-align: center;">
 <b>Convert your .gds to .gltf files to create photo-real animations of your photonic/electronic integrated circuits.</b>
 </div>
@@ -9,7 +11,6 @@
 + 📐 Converts the `.gds` to the common `.gltf` file format for 3D objects including BDSF material based on the defined process.
 + 🎨 Import the `.gltf` file into [Blender](https://www.blender.org/) (or any other 3D software of your choice) to create a 3D render.
 
-![](docs/header.png)
 
 This code is based on [https://github.com/mbalestrini/GDS2glTF](https://github.com/mbalestrini/GDS2glTF) which in turn is based on [https://github.com/dteal/gdsiistl](https://github.com/dteal/gdsiistl).
 The main changes here ensure that complex nested cells, flips, and rotations are done correctly so that complex integrated photonics designs can be rendered in 3D.
